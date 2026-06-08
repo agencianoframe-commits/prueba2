@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Roca | Mobiliario Artesanal de Hierro Premium</title>
+    <meta name="description" content="2Roca: Fabricación artesanal de sillas y mobiliario de hierro premium. Diseño industrial, durabilidad y oficio en cada pieza.">
+    <meta name="keywords" content="sillas hierro, mobiliario artesanal, muebles industriales, estructuras metálicas, diseño personalizado">
+    <meta name="author" content="2Roca">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">2</span><span class="logo-text highlight">ROCA</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Nosotros</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#proceso" class="nav-link">Proceso</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link cta-button">Cotizar</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-image-container">
+                <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Sillas artesanales de hierro" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hierro. Oficio. Perdurabilidad.</h1>
+                <p class="hero-subtitle">Fabricación artesanal de mobiliario premium que trasciende el tiempo</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">Solicitar Cotización</button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('galeria').scrollIntoView({behavior: 'smooth'})">Ver Portafolio</button>
+                </div>
+            </div>
+            <div class="hero-details">
+                <div class="detail-item">
+                    <div class="detail-number">100%</div>
+                    <div class="detail-text">Artesanal</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-number">20+</div>
+                    <div class="detail-text">Años de Oficio</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-number">500+</div>
+                    <div class="detail-text">Proyectos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestra Historia</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-intro">2Roca nace de la pasión por el oficio del hierro y la búsqueda incesante de la excelencia en cada detalle.</p>
+                    <p>Durante más de dos décadas, hemos perfeccionado nuestras técnicas de fabricación artesanal, combinando métodos tradicionales con diseño contemporáneo. Cada pieza que sale de nuestro taller es resultado de un proceso meticuloso donde la calidad no es una opción, es una filosofía.</p>
+                    <p>Nos especializamos en crear mobiliario que no solo es hermoso, sino que está diseñado para perdurar. Nuestro compromiso es con la durabilidad, la autenticidad y el trabajo personalizado que respeta tanto la visión del cliente como nuestro legado artesanal.</p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <span class="icon">✦</span>
+                            <h4>Fabricación Artesanal</h4>
+                            <p>Cada soldadura, cada acabado, cada detalle es realizado con precisión y dedicación.</p>
+                        </div>
+                        <div class="highlight">
+                            <span class="icon">✦</span>
+                            <h4>Materiales Premium</h4>
+                            <p>Seleccionamos hierro de la más alta calidad para garantizar durabilidad y resistencia.</p>
+                        </div>
+                        <div class="highlight">
+                            <span class="icon">✦</span>
+                            <h4>Producción Local</h4>
+                            <p>Diseño, fabricación y control de calidad 100% en nuestro taller.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Taller artesanal 2Roca">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="productos" id="productos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestras Especialidades</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="productos-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sillas artesanales">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Sillas de Hierro</h3>
+                        <p>Diseño ergonómico con acabados premium. Desde sillas dining hasta butacas artesanales únicas.</p>
+                        <a href="#contacto" class="product-link">Explorar →</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mobiliario industrial">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Mobiliario Industrial</h3>
+                        <p>Mesas, estanterías y elementos funcionales con estética industrial refinada.</p>
+                        <a href="#contacto" class="product-link">Explorar →</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Proyectos personalizados">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Proyectos Personalizados</h3>
+                        <p>Soluciones únicas diseñadas específicamente para tu espacio y necesidades.</p>
+                        <a href="#contacto" class="product-link">Explorar →</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Estructuras metálicas">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Estructuras Metálicas</h3>
+                        <p>Desde barandales hasta escaleras: obras de ingeniería artesanal.</p>
+                        <a href="#contacto" class="product-link">Explorar →</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1604345604585-ddf4a9da3675?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Piezas artesanales">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Piezas Artesanales</h3>
+                        <p>Esculturas, accesorios y elementos decorativos únicos de hierro forjado.</p>
+                        <a href="#contacto" class="product-link">Explorar →</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Acabados premium">
+                        <div class="product-overlay"></div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Acabados Premium</h3>
+                        <p>Pintura industrial, patinado, pulido espejo: cada detalle cuenta.</p>
+                        <a href="#contacto" class="product-link">Explorar →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="proceso" id="proceso">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestro Proceso</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Diseño</h3>
+                    <p>Escuchamos tu visión. Trabajamos contigo para crear diseños que reflejen tus necesidades y estilo.</p>
+                    <div class="step-icon">📐</div>
+                </div>
+                <div class="process-arrow">→</div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Fabricación</h3>
+                    <p>Nuestros maestros artesanos transforman el diseño en realidad mediante técnicas probadas de herrería.</p>
+                    <div class="step-icon">⚒️</div>
+                </div>
+                <div class="process-arrow">→</div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Terminaciones</h3>
+                    <p>Control de calidad riguroso, acabados premium y detalles que marcan la diferencia.</p>
+                    <div class="step-icon">✨</div>
+                </div>
+                <div class="process-arrow">→</div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Entrega</h3>
+                    <p>Tu obra maestra llega en perfectas condiciones, lista para perdure en el tiempo.</p>
+                    <div class="step-icon">📦</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galería de Proyectos</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" alt="Proyecto 1">
+                    <div class="gallery-overlay">
+                        <h4>Sillas Artesanales</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600&q=80" alt="Proyecto 2">
+                    <div class="gallery-overlay">
+                        <h4>Detalle de Soldadura</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600&q=80" alt="Proyecto 3">
+                    <div class="gallery-overlay">
+                        <h4>Taller 2Roca</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600&q=80" alt="Proyecto 4">
+                    <div class="gallery-overlay">
+                        <h4>Escalera Metálica</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1604345604585-ddf4a9da3675?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600&q=80" alt="Proyecto 5">
+                    <div class="gallery-overlay">
+                        <h4>Pieza Artesanal</h4>
+                    </div>
+                </div>
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" alt="Proyecto 6">
+                    <div class="gallery-overlay">
+                        <h4>Acabado Premium</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por Qué Elegirnos</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-icon">🔨</div>
+                    <h3>Fabricación Artesanal</h3>
+                    <p>Cada pieza es elaborada manualmente por maestros artesanos con décadas de experiencia.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">⚙️</div>
+                    <h3>Materiales Duraderos</h3>
+                    <p>Seleccionamos hierro de la más alta calidad para garantizar años de durabilidad.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">✏️</div>
+                    <h3>Personalización Total</h3>
+                    <p>Diseña exactamente lo que necesitas. Tu visión, nuestro oficio.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">✨</div>
+                    <h3>Terminaciones Premium</h3>
+                    <p>Acabados que reflejan calidad: pintura industrial, patinado, pulido espejo.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">👥</div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Trabajamos contigo en cada etapa. Tu satisfacción es nuestro compromiso.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🏆</div>
+                    <h3>Trayectoria Probada</h3>
+                    <p>Más de 20 años creando piezas que perduran y proyectos que inspiran.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lo Que Dicen Nuestros Clientes</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="testimonios-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Las sillas superaron todas nuestras expectativas. La calidad es excepcional y el proceso fue impecable. Recomendamos 2Roca sin dudarlo."</p>
+                    <div class="testimonial-author">
+                        <strong>María González</strong>
+                        <span>Propietaria Restaurante</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Un taller que entiende verdaderamente el oficio. Cada detalle está pensado, cada soldadura es perfecta. Una obra de arte funcional."</p>
+                    <div class="testimonial-author">
+                        <strong>Carlos Mendez</strong>
+                        <span>Diseñador de Interiores</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Trabajar con 2Roca fue una experiencia transformadora. Hicieron realidad nuestro proyecto industrial con una precisión extraordinaria."</p>
+                    <div class="testimonial-author">
+                        <strong>Ana López</strong>
+                        <span>Arquitecta</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final Section -->
+    <section class="cta-final" id="contacto">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Tu Proyecto Merece Excelencia</h2>
+                <p>Contactanos hoy y descubre cómo podemos transformar tu visión en una obra maestra artesanal.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large" onclick="abrirWhatsapp()">Solicitar Cotización vía WhatsApp</button>
+                    <button class="btn btn-secondary btn-large" onclick="document.getElementById('form-contacto').scrollIntoView({behavior: 'smooth'})">Enviar Formulario</button>
+                </div>
+            </div>
+            <form class="contact-form" id="form-contacto">
+                <div class="form-group">
+                    <input type="text" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Tu correo" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Describe tu proyecto" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>2ROCA</h4>
+                    <p>Fabricación artesanal de mobiliario de hierro premium.</p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/" target="_blank">Contáctanos</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#hero">Inicio</a></li>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categorías</h4>
+                    <ul>
+                        <li><a href="#">Sillas</a></li>
+                        <li><a href="#">Mobiliario Industrial</a></li>
+                        <li><a href="#">Proyectos Personalizados</a></li>
+                        <li><a href="#">Estructuras Metálicas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📍 Ubicación del Taller</p>
+                    <p>📧 info@2roca.com</p>
+                    <p>📱 WhatsApp Premium</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 2Roca. Fabricación Artesanal. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/" target="_blank" class="whatsapp-button" id="whatsapp-btn">
+        <span class="whatsapp-icon">💬</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+  "name": "2Roca - Mobiliario Artesanal de Hierro Premium",
+  "short_name": "2Roca",
+  "description": "Fabricación artesanal de sillas y mobiliario de hierro premium. Diseño industrial, durabilidad y oficio en cada pieza.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#d4af37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["business", "shopping"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Ver Galería",
+      "short_name": "Galería",
+      "description": "Acceso directo a la galería de proyectos",
+      "url": "/#galeria",
+      "icons": []
+    },
+    {
+      "name": "Solicitar Cotización",
+      "short_name": "Cotizar",
+      "description": "Solicitar un presupuesto para tu proyecto",
+      "url": "/#contacto",
+      "icons": []
+    }
+  ]
+}
